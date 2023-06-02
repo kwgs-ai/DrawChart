@@ -5,6 +5,7 @@ body {
 #graphArea {
     width: 70%;
     margin: 50px;
+    background-color: rgb(217, 229, 239);
 }
 
 .separator {
