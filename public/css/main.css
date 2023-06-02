@@ -1,0 +1,13 @@
+body {
+    margin-left: 50pt
+}
+
+#graphArea {
+    width: 70%;
+    margin: 50px;
+}
+
+.separator {
+    margin-left: 1px;
+    width: 70%;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.3.0"></script>
+  <script src="/public/js/DrawChart.js"></script>
+  <link rel="stylesheet" href="/public/css/main.css" />
+  <title>Draw Chart</title>
+</head>
+
+<body>
+  <h1>
+    グラフを描画します
+  </h1>
+  <form action="/" method="post">
+    データ: <input type="text" name="data" size=20> ※カンマ区切りの数値を入力して下さい。
+    <input type="submit" value="送信">
+  </form>
+  <hr class="separator">
+  <p id="givenData">
+    <%= data %>
+  </p>
+  <div id="graphArea">
+    <canvas id="myChart"></canvas>
+  </div>
+</body>
+
+</html>
